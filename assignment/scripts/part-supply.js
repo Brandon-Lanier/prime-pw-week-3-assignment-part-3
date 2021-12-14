@@ -75,6 +75,11 @@ console.log(totalSupplies);
 console.log('9. Filling boxes with a "while" loop');
 const maxParts = 7;
 let totalParts = 572;
-let totalBoxes;
+let totalBoxes = 0;
 
-while (totalParts <= maxParts)
+while ( totalParts > maxParts) {
+  totalParts-= maxParts;
+  totalBoxes++;
+}
+console.log('We have filled', totalBoxes ,'boxes.');
+console.log('We have', totalParts ,'left over.');
