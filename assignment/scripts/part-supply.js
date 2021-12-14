@@ -82,4 +82,4 @@ while ( totalParts > maxParts) {
   totalBoxes++;
 }
 console.log('We have filled', totalBoxes ,'boxes.');
-console.log('We have', totalParts ,'left over.');
+console.log('We have', totalParts ,'parts left over.');
